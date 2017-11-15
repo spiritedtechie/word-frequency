@@ -2,7 +2,7 @@ import org.scalatest.FlatSpec
 
 import scala.collection.immutable.ListMap
 
-class    WordFrequencyCounterTest extends FlatSpec {
+class WordFrequencyCounterTest extends FlatSpec {
 
   "count words" should "count a single word" in {
     val strings = Iterator("the")
